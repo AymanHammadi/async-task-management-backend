@@ -81,3 +81,9 @@ Checked with Node.js 24.21.0 and npm 11.19.0:
 - `npm start` ran the compiled demo, including both expected failures.
 - `npm run dev` ran the demo and kept the watcher active until stopped.
 - `npm audit` reported zero known vulnerabilities at the time of verification.
+
+## AI use
+
+I used an OpenAI assistant through OpenCode to clarify the requirements and generate the TypeScript implementation and automated tests.
+
+The assistant ran type-checking, all 18 tests, and the demo to verify the implementation. I chose the project scope and reviewed the resulting project.
